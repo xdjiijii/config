@@ -1,0 +1,7 @@
+:set so=5
+:set clipboard=unnamedplus
+:set relativenumber
+:set number
+:set visualbell
+:set noerrorbells
+:nmap gD :action GotoImplementation<CR>
