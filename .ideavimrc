@@ -4,4 +4,8 @@
 :set number
 :set visualbell
 :set noerrorbells
+:set ignorecase
+:set smartcase
+:set hlsearch
+:nmap N :noh<CR>
 :nmap gD :action GotoImplementation<CR>
